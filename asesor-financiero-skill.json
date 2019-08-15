@@ -1,0 +1,163 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "asesor financiero",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "inicio",
+                    "slots": [],
+                    "samples": [
+                        "abre el asesor financiero",
+                        "abre el banco",
+                        "inicia la aplicacion de banco",
+                        "incia banco"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "consejo",
+                    "slots": [],
+                    "samples": [
+                        "otro consejo",
+                        "dame otro",
+                        "consejo",
+                        "dame otro consejo",
+                        "dame un consejo"
+                    ]
+                },
+                {
+                    "name": "balance",
+                    "slots": [
+                        {
+                            "name": "cuenta",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "balance de la cuenta {cuenta}",
+                        "dame el saldo de mi cuenta {cuenta}",
+                        "dame el saldo de la cuenta {cuenta}",
+                        "saldo de todas mis cuentas",
+                        "saldo de mis cuentas",
+                        "dame el saldo",
+                        "dime el balance de mis cuentas",
+                        "dame el balance de todas mis cuentas",
+                        "balance de mis cuentas",
+                        "dame el balance"
+                    ]
+                },
+                {
+                    "name": "gastos",
+                    "slots": [
+                        {
+                            "name": "categoria",
+                            "type": "categoria"
+                        }
+                    ],
+                    "samples": [
+                        "cuanto he gastado en la categoria {categoria}",
+                        "dime los gastos de la categoria {categoria}",
+                        "dime los gastos de {categoria}",
+                        "en que he gastado este mes",
+                        "dame mis gastos",
+                        "dame los ultimos gastos",
+                        "dame todos los gastos"
+                    ]
+                },
+                {
+                    "name": "prestamos",
+                    "slots": [],
+                    "samples": [
+                        "dime los prestamos disponibles",
+                        "tengo algun prestamo disponible",
+                        "prestamo",
+                        "prestamos disponibles",
+                        "pedir un prestamo"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "categoria",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "Solidaridad"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Ocio"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Otros"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Hogar"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Seguros"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Administraciones Públicas"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Compras"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Finanzas"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Salud"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Efectivo"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Transporte"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Educación"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
